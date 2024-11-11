@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>메인페이지</title>
     <link rel="stylesheet" href="./css/home.css" />
-    <script src="./js/home.js"></script>
+    <script defer src="./js/home.js"></script>
     <script
       src="https://kit.fontawesome.com/01ba7af47f.js"
       crossorigin="anonymous"
@@ -77,13 +77,21 @@
     </header>
 
     <!-- 세션 부분 -->
-    <section onload="carousel();">
+    <section>
       <div class="slideshow">
         <div class="slideshow_slides">
-          <a href="#"><img src="./img/slide-1.jpg" /></a>
-          <a href="#"><img src="./img/slide-2.jpg" /></a>
-          <a href="#"><img src="./img/slide-3.jpg" /></a>
-          <a href="#"><img src="./img/slide-4.jpg" /></a>
+          <a href="#"
+            ><img src="./img/slide-1.jpg" alt="슬라이드 이미지 1"
+          /></a>
+          <a href="#"
+            ><img src="./img/slide-2.jpg" alt="슬라이드 이미지 2"
+          /></a>
+          <a href="#"
+            ><img src="./img/slide-3.jpg" alt="슬라이드 이미지 3"
+          /></a>
+          <a href="#"
+            ><img src="./img/slide-4.jpg" alt="슬라이드 이미지 4"
+          /></a>
         </div>
         <div class="slideshow_nav">
           <a href="#" class="prev"
